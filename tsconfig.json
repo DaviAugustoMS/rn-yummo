@@ -1,0 +1,13 @@
+{
+  "extends": "@tsconfig/react-native/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@yummo/*": ["packages/*/src"]
+    },
+    "outDir": "dist",
+    "declaration": true,
+    "composite": true
+  },
+  "include": ["packages/**/*"]
+}

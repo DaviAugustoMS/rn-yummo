@@ -1,0 +1,15 @@
+{
+  "name": "demo-app",
+  "version": "0.1.0",
+  "main": "App.tsx",
+  "private": true,
+  "scripts": {
+    "start": "expo start"
+  },
+  "dependencies": {
+    "@yummo/components": "*",
+    "expo": "~50.0.0",
+    "react": "18.2.0",
+    "react-native": "0.73.0"
+  }
+}
